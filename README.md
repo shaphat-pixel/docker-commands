@@ -31,3 +31,14 @@ Deletes images that I no longer need.
 # ////////////////////////////////////
 
 # DEPLOYING WEB APPLICATIONS WITH DOCKER
+
+# docker run -d -P --name static-site prakhar1989/static-site
+"-d" variant makes the container run in detached mode, meaning we can access it outside the terminal.
+"-P" variant will publish all exposed ports.
+"-name" variant helps us provide a name for our container.
+
+# docker port name_of_container
+we write this container in other to view the ports that our container is runnning on.
+
+# docker stop name_of_container
+This command stops the web server from running.
