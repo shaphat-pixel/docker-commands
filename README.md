@@ -18,3 +18,12 @@ The "-it" variant allows us to write additional commands by giving us an interfa
 
 # docker rm container_id
 This command is used to delete a container in other to free up space.
+
+# docker container prune
+Deletes all containers that have been exited
+
+# docker run --rm
+This automatically deletes a container after it has exited.
+
+# docker rmi
+Deletes images that I no longer need.
