@@ -27,3 +27,7 @@ This automatically deletes a container after it has exited.
 
 # docker rmi
 Deletes images that I no longer need.
+
+# ////////////////////////////////////
+
+# DEPLOYING WEB APPLICATIONS WITH DOCKER
